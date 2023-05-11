@@ -15,19 +15,28 @@
             <div class="light-font">
                 <nav>
                     <div class="logo">
-                        <p>~% shell</p>
+                    <p>~% shell</p>
                     </div>
                     <ul>
-                        <li><a href="index.php">HOME</a></li>
-                        <li><a href="project.php">PROJECTS</a></li>
-                        <li><a href="exp.php">EXPERIENCE</a></li>
-                        <li><a href="about.php">ABOUT ME</a></li>
-                        <li><a href="asp.php">ASPIRATIONS</a></li>
+                    <li>HOME</li>
+                    <li>PROJECTS</li>
+                    <li>EXPERIENCE</li>
+                    <li>ABOUT ME</li>
+                    <li>ASPIRATIONS</li>
                     </ul>
                 </nav>
             </div>
         </div>
-        
+        <div class="main-container">
+            <div class = "image-container">
+                <img src="images/nigga.png" alt="Your Image" class="bottom-left-image">
+            </div>
+            <div class="text-container">
+                <p>I am Bemnet Merkebu</p>
+                <h3>up & coming Software Engineer</h3>
+            </div>
+        </div>
+    </div>
 
 
 

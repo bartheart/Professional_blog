@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
   }
   
@@ -8,7 +6,14 @@
     background-color: #28272B;
     font-family: 'Share Tech Mono';
     height: 100vh;
+  }
+
+  .landing-page {
     overflow: hidden;
+  }
+
+  .pages{
+    overflow: scroll;
   }
   
   .page-container {
@@ -33,7 +38,7 @@
   .nav-container {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 0px;
   }
   
   nav {
@@ -96,7 +101,60 @@
     color: white;
     font-size: 25px;
   }
+
+  .main {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .thumbnal-list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+
+  .thumbnail {
+    border: 2px solid white;
+    border-radius: 0px 8px 8px 8px;
+    cursor: cell;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    min-width: 500px;
+  }
+
+  .thumbnail a{
+    color: #01d031;
+  }
+
+  .thumbnail p{
+    color: white;
+  }
+
+  .thumbnail-list li:hover{
+    background-color: white;
+  }
   
+  .thumbnail:hover p {
+    color: black;
+  }
+
+  .post-container{
+    margin: 10px;
+    padding: 10px;
+    background-color: azure;
+
+  }
+
   @media screen and (max-width: 768px) {
     .text-container {
       top: 40%;

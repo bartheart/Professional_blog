@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #28272B;
+    font-family: 'Share Tech Mono';
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .post-update {
+    margin-bottom: 20px;
+  }
+  
+  .post-update h3 {
+    color: #01d031;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .post-templates {
+    width: 600px;
+  }
+  
+  .post-box {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .project-containers {
+    background-color: #1c1b1f;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  .project-containers:hover {
+    background-color: #2c2b2f;
+  }
+  
+  .project-containers h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #01d031;
+  }
+  
+  .project-containers h3 a {
+    text-decoration: none;
+    color: #01d031;
+  }
+  
+  .project-containers p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .post-templates {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .post-templates {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .project-containers h3 {
+      font-size: 16px;
+    }
+    
+    .project-containers p {
+      font-size: 12px;
+    }
+  }
+  

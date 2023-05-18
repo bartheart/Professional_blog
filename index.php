@@ -1,5 +1,5 @@
 <?php
-    require 'templates/header.php';
+    require 'templates/header-landing.php';
 ?>
 
         <div class="main-container">
@@ -8,7 +8,7 @@
             </div>
             <div class="text-container">
                 <p>I am Bemnet Merkebu</p>
-                <h3>up & coming Software Engineer</h3>
+                <h3>Up & coming Software Engineer</h3>
             </div>
         </div>
     </div>

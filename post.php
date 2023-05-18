@@ -3,9 +3,23 @@
 ?>
 
     <div class="content-container">
-        <div>
-            <p>Projects</p>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+        <div class="post-container">
+            <h2>Lexical Analyzer in C</h2></br>
+            <h3>Overview</h3>
+            <p>Compiler: a program that changes a code into a machine-understandable format</p>
+            <p>Think of it as a translator from your code into the machine</p>
+            <p>This means reading through each character of the entire file</p>
+            <p>Consisted of different parts and stages</p>
+            <p>Let’s evaluate a simple C expression</p>
+            <img alt="image example 1" src="images/eg1.png">
+            <h2>Parser</h2>
+            <p>The main parts of a compiler are lexer and parser</p>
+            <p>Lexer converts every character or group of characters into specific tokens</p>
+            <p>Parser analyzes the syntax in which the tokens are ordered</p>
+            <p>Lexical analysis is the basic process, we can’t be overlapping with parsing syntax</p>
+            <img alt="image example 1" src="images/img2.png">
+            <img alt="image example 1" src="images/img3.png">
+            <img alt="image example 1" src="images/img4.png">
         </div>
     </div>
 </body>

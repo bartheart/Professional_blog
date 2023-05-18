@@ -1,11 +1,84 @@
 <?php
     require 'templates/header.php';
 ?>
-
     <div class="content-container">
-        <div>
-            <p>Projects</p>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+        <div class="stepper-container">
+            <a href="#img1">
+            <div class="step">
+                <div>
+                    <div class="circle"><i class="fa fa-check"></i></div>
+                </div>
+                <div>
+                    <div class="title">St. Jhon Baptist De La Salle catholic school</div>
+                    <div class="caption">
+                        <p>Web developer</p>
+                        <p>IT teaching assistant</p>
+                    </div>
+                </div>
+            </div></a>
+            <a href="#img2">
+            <div class="step step-active">
+                <div>
+                    <div class="circle"></div>
+                </div>
+                <div>
+                    <div class="title">Drury University</div>
+                    <div class="caption">
+                        <p>Audio-visual room conductor</p>
+                        <p>Trustee Scholarship recipient</p>
+                    </div>
+                </div>
+            </div></a>
+            <a href="#img3">
+            <div class="step">
+                <div>
+                    <div class="circle"></div>
+                </div>
+                <div>
+                    <div class="title">Hermolan Schools</div>
+                    <div class="caption">
+                        <p>Software engineering intern</p>
+                        <p>Built a payment system</p>
+                    </div>
+                </div>
+            </div></a>
+            <a href="#img4">
+            <div class="step">
+                <div>
+                    <div class="circle"></div>
+                </div>
+                <div>
+                    <div class="title">UNT Honors college</div>
+                    <div class="caption">
+                        <p>Honors contract research</p>
+                        <p>Developed a Lexical Analyzer</p>
+                    </div>
+                </div>
+            </div></a>
+            <a href="#img5">
+            <div class="step">
+                <div>
+                    <div class="circle"></div>
+                </div>
+                <div>
+                    <div class="title">University of North Texas</div>
+                    <div class="caption">
+                        <p>Grad-Track program</p>
+                        <p>Artificial Intellegence focus</p>
+                    </div>
+                </div>
+            </div></a>
+                
+        </div>
+
+        <div class="image-container">
+            <img id="img1" class="img2" src="images/stj.png" alt="Drury university O'Rielly center">
+            <img id="img2" class="img2" src="images/ori.png" alt="Drury university O'Rielly center">
+            <img id="img3" class="img2" src="images/ore.png" alt="Drury university O'Rielly center">
+            <img id="img4" class="img2" src="images/hnr.png" alt="Drury university O'Rielly center">
+            <img id="img5" class="img2" src="images/unt.png" alt="Drury university O'Rielly center">
         </div>
     </div>
+    
+    
 </body>

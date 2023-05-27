@@ -111,8 +111,8 @@
     margin: 5px;
   }
 
-  .thumbnal-list{
-    display:flex;
+  .thumbnal-list {
+    display:block;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 800px;
@@ -130,6 +130,7 @@
     text-align: center;
     position: relative;
     min-width: 500px;
+    width: 100%;
   }
 
   .thumbnail a{
@@ -155,6 +156,107 @@
 
   }
 
+  .stepper-container {
+    padding: 10px;
+    margin-left: 5%;
+    width: 75%;
+  }
+
+  .step h3{
+    color: white;
+  }
+
+  .step .description{
+    color: #01d031;
+  }
+
+  .step {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .v-stepper {
+    position: relative;
+  }
+
+  .step .circle {
+    background-color: white;
+    border: 3px solid #01d031;
+    border-radius: 100%;
+    width: 20px;    /* +6 for border */
+    height: 20px;
+    display: inline-block;
+  }
+
+  .step .line {
+    top: 23px;
+    left: 09px;
+    /*   height: 120px; */
+    height: 100%;
+    
+    position: absolute;
+    border-left: 3px solid #f7f7f7;
+  }
+
+  .step:last-child .line {
+    border-left: 3px solid white;
+    z-index: -1; /* behind the circle to completely hide */
+  }
+
+  .stepper-content{
+    margin-left: 20px;
+    margin-top: -20px;
+    display: inline-block;
+  }
+  
+  .description {
+    margin-left: 20px;
+    display: inline-block;
+  }
+
+  .title{
+    display: flex;
+  }
+
+  .title p{
+    right: 20px;
+  }
+
+.project-section {
+    background-color: #28272B;
+    color: #ffffff;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.project {
+    max-width: 75%;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #222222;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.project h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Styling for scrolling to the next project section */
+html {
+    scroll-behavior: smooth;
+}
+
   @media screen and (max-width: 768px) {
     .text-container {
       top: 40%;
@@ -167,6 +269,15 @@
   
     .text-container h3 {
       font-size: 20px;
+    }
+
+    .project-section {
+      align-items: flex-start;
+    }
+  
+    .project {
+      width: 90%;
+      max-width: none;
     }
   }
   
@@ -200,3 +311,5 @@
     }
   }
   
+
+

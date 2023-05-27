@@ -18,7 +18,7 @@
                     <div class="logo">
                         <p>~% shell</p>
                     </div>
-                    <ul>
+                    <ul class="nav">
                         <li><a href="index.php">HOME</a></li>
                         <li><a href="project.php">PROJECTS</a></li>
                         <li><a href="post.php">BLOG POST</a></li>
